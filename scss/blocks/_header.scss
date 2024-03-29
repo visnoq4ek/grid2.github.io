@@ -1,0 +1,45 @@
+.header {
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+
+  }
+ .header__menu1 {
+    bottom: 2vw;
+    padding-top: 2vw;
+    height: 100%;
+    align-self: center;
+    word-spacing: 1.6vw;
+    float: left;
+    background-color:#526E3E ;
+    width: 100vw;
+    height:6.18vw ;
+  }
+  .header__menu1 a {
+    
+    display: inline;
+    font-family: "lato", sans-serif;
+    font-size: 1.4vw;
+    color: rgb(255, 255, 255);
+    margin-left: 2vw;
+    font-size: 0.97vw;
+    font-weight: 400;
+  }
+  .logo{
+    margin-top: -33vw;
+    width: 29.03vw;
+    height: 13.75vw;
+    margin-left: 35vw;
+  }
+  .text1{
+    font-size: 3.96vw;
+    font-weight:700 ;
+    color: white;
+    margin-left:22.57vw ;
+    margin-top: 10vw;
+    line-height: 4.31vw;
+  }
+  

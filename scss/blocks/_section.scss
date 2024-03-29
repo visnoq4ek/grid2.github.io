@@ -1,0 +1,129 @@
+.section{
+    margin-top: 3vw;
+    .zag{
+        font-size: 1.94vw;
+        font-weight: 700;
+        color: #526E3E;
+        line-height:2.50vw ;
+        margin-top: 13vw;
+        margin-left: 24vw;
+    }
+    .grid1{
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 5vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        gap: 1vw;
+    }
+    .kar1{
+        width: 100%;
+        grid-column: 1 / 2;
+    }
+    .kar2{
+        width: 100%;
+        grid-column: 2 / 3;
+        grid-row: 1/1;
+    }
+    .kar3{
+        width: 100%;
+        grid-column: 3 / 4;
+        grid-row: 1/1;
+    }
+    .kar4{
+        width: 100%;
+        grid-column: 4 / 5;
+        grid-row: 1/1;
+    }
+    .k1{
+        font-size:0.97vw ;
+        letter-spacing: 0,05vw;
+        color: #526E3E;
+        text-align: center;
+    }
+    .k2{
+        font-size:0.97vw ;
+        letter-spacing: 0,05vw;
+        color: #526E3E;
+        text-align: center;
+    }
+    .k3{
+        font-size:0.97vw ;
+        letter-spacing: 0,05vw;
+        color: #526E3E;
+        text-align: center;
+    }
+    .k4{
+        font-size:0.97vw ;
+        letter-spacing: 0,05vw;
+        color: #526E3E;
+        text-align: center;
+    }
+    .get{
+        border-radius: 2px  ;
+        border-color: #526E3E;
+        color: #526E3E;
+        transition: .2s linear;
+        background:#FDFBED;
+        font-size: 0.70vw;
+        font-weight: 700;
+        padding: 1vw 6vw 1vw 6vw;
+        margin-left: 42vw;
+        margin-top: -20vw;
+        position: absolute;
+    }
+    .get:hover {
+        box-shadow: 0 0 0 2px white, 0 0 0 4px #526E3E;
+    }
+    .fon2{
+        margin-top: -11vw;
+    }
+    .text2{
+        color: white;
+        font-size: 6.15vw;
+        font-weight: 400;
+        margin-top: -20vw;
+    }
+    .fotka{
+        width: 37.50vw;
+        height: 31.09vw;
+        margin-top: 18vw;
+        position: relative;
+    }
+    .zagi{
+        width: 17.97vw;
+        height: 8.70vw;
+        margin-top: -31vw;
+        margin-left: 48vw;
+    }
+    .t1{
+        font-size: 0.89vw;
+        font-weight: 400;
+        line-height: 1.25vw;
+        margin-left: 48vw;
+        margin-top: 2vw;
+        color: #526E3E;
+        margin-right: 20vw;
+    }
+    .t2{
+        font-size: 0.89vw;
+        font-weight: 400;
+        line-height: 1.25vw;
+        margin-left: 48vw;
+        margin-top: 2vw;
+        color: #526E3E;
+        margin-right: 20vw;
+    }
+    .t3{
+        font-size: 0.89vw;
+        font-weight: 400;
+        line-height: 1.25vw;
+        margin-left: 48vw;
+        margin-top: 2vw;
+        color: #526E3E;
+        margin-right: 20vw;
+    }
+  
+}
